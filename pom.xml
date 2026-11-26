@@ -22,6 +22,9 @@
         <!-- JUnit -->
         <junit.version>6.1.3</junit.version>
 
+        <!-- Apache Commons CSV -->
+        <commons-csv.version>1.14.1</commons-csv.version>
+
         <!-- Plugins -->
         <maven.compiler.plugin.version>3.16.0</maven.compiler.plugin.version>
         <maven.surefire.plugin.version>3.6.1</maven.surefire.plugin.version>
@@ -51,6 +54,13 @@
             <artifactId>junit-jupiter</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- Source: https://mvnrepository.com/artifact/org.apache.commons/commons-csv -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>${commons-csv.version}</version>
         </dependency>
 
     </dependencies>
